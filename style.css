@@ -35,6 +35,43 @@
 
 }
 
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #1F2937;
+    font-family: Roboto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.intro h1 {
+    font-weight: 800;
+    font-size:48px;
+    color: #F9FAF8;
+}
+
+
+.intro p {
+    font-size:18px;
+    color: #e5e7eb;
+}
+
+.intro a {
+    text-decoration: none;
+    background-color: #3882F6;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: white;
+}
+
+.intro img {
+    width: 35%;
+    height:35%;
+}
+
 .footer {
     display: flex;
     justify-content: center;
