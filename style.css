@@ -9,12 +9,11 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
     font-family: Roboto;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
-    padding:3px
+    padding: 10px;
 }
 
 .logo {
@@ -37,15 +36,21 @@
 
 .intro {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color:  #1F2937;
     font-family: Roboto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding:10px;
 }
 
+.hero {
+    flex: 1;
+    min-width: 60%;
+}
 
+.ow {
+    flex: 1;
+    max-width:40%;
+}
 
 .intro h1 {
     font-weight: 800;
@@ -67,16 +72,32 @@
     color: white;
 }
 
-.intro img {
-    width: 35%;
-    height:35%;
+.photo {
+    display: flex;
+    align-items: center;
+}
+
+.highlight {
+    display: inline-block;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.photo {
+    display:flex;
+    justify-content: center;
+
+}
+
+.photo img {
+    width:100px;
+    height:100px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid green;
     font-family: Roboto;
     background-color: #1F2937;
     color: #F9FAF8;
