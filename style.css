@@ -43,7 +43,10 @@
 }
 
 .hero {
+    display: flex;
+    align-items: center;
     flex: 1;
+    flex-direction: column;
     min-width: 60%;
 }
 
@@ -62,6 +65,7 @@
 .intro p {
     font-size:18px;
     color: #e5e7eb;
+    padding: 10px;
 }
 
 .intro a {
@@ -72,26 +76,62 @@
     color: white;
 }
 
-.photo {
-    display: flex;
-    align-items: center;
+.info {
+    display: block;
+    font-size: 36px;
+    color: #1F2937;
+    font-family: Roboto;
+    text-align: center;
 }
 
-.highlight {
-    display: inline-block;
-    text-align: center;
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+.desc {
+    max-width: 250px;
     font-family: Roboto;
 }
 
 .photo {
-    display:flex;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.showcase img {
+    height: 250px;
+    width:250px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: solid 3px #3882F6;
+
 
 }
 
-.photo img {
-    width:100px;
-    height:100px;
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-family: Roboto;
+}
+
+.testimonial .review {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.testimonial .cust {
+    text-align: right;
 }
 
 .footer {
